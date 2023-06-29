@@ -1,0 +1,50 @@
+.product-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    padding: 0.5rem;
+    margin: 0.25rem 0;
+    border-radius: 12px;
+    background-color: #5e5d5d;
+  }
+
+  .product-item_price {
+    flex: 1;
+    text-align: right;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    padding: 0.5rem;
+  }
+
+  .main {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .shop {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    padding: 0.5rem;
+    margin: 0.25rem 0;
+    border-radius: 12px;
+    background-color: yellow;
+    width: 75%;
+  }
+
+  .cart {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    padding: 0.5rem;
+    margin: 0.25rem 0;
+    border-radius: 12px;
+    background-color: green;
+    color:white;
+    width: 20%;
+  }
