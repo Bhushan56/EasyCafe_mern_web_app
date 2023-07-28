@@ -68,8 +68,7 @@ const Footer = () => {
       </div>
       <div className="footer-section">
           <p style={{textAlign:"center"}}>
-            Copyright 1999-2023 by Refsnes Data. All Rights Reserved. W3Schools
-            is Powered by W3.CSS.
+            Copyright 2023-24 . All rights reserved @ FoodOrderingSystem
           </p>
         </div>
     </footer>
